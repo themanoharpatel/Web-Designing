@@ -1,0 +1,999 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation-bar {
+    .navbar {
+        padding: 0;
+
+        img {
+            width: 80%;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                a {
+                    margin: 0 28px;
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    color: rgba(72, 79, 91, 255);
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.homebar {
+    margin: 30px 0;
+    // background-image: url(../images/home_bg.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: auto;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 62px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        padding: 45px 0 20px;
+        font-size: 20px;
+        max-width: 500px;
+    }
+
+    .join-us {
+        // color: rgba(72, 79, 91, 255);
+        background-color: #e6c8c3;
+        min-width: 170px;
+        color: #484f5b;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 11px 10px;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        margin-top: 20px;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+            background-color: #484f5b;
+            color: #e6c8c3;
+        }
+    }
+
+}
+
+.woman-program {
+    margin: 50px 0;
+    padding: 220px 0;
+    background-image: url(../images/woman_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text_box {
+
+        h3 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: rgba(72, 79, 91, 255);
+            font-size: 65px;
+
+        }
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: rgba(72, 79, 91, 255);
+            padding: 50px 0 20px;
+            font-size: 20px;
+        }
+
+        .join-us {
+            color: #484f5b;
+            min-width: 170px;
+            background-color: #e6c8c3;
+            text-align: center;
+            align-items: center;
+            display: inline-block;
+            padding: 11px 10px;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: .3s all ease-in-out;
+
+            &:hover {
+                background-color: #484f5b;
+                color: #e6c8c3;
+            }
+        }
+    }
+
+}
+
+.program-list {
+    margin: 120px 0 0px;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 22px;
+        padding-top: 40px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        font-size: 18px;
+    }
+
+}
+
+.breathing {
+    margin: 50px 0 80px;
+
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 62px;
+
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        padding: 20px 0 10px;
+        font-size: 20px;
+    }
+
+    .learn-more {
+        color: #726f77;
+        min-width: 170px;
+        background-color: #e6c8c3;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 11px 10px;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        // margin-top: 20px;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+            background-color: #726f77;
+            color: #e6c8c3;
+        }
+    }
+}
+
+.join-now {
+    background-image: url(../images/yoga_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 62px;
+        max-width: 500px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        padding: 20px 0 10px;
+        font-size: 20px;
+    }
+
+    .join_now {
+        color: #484f5b;
+        min-width: 170px;
+        background-color: #e6c8c3;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 11px 10px;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        // margin-top: 20px;
+        transition: .3s all ease-in-out;
+
+        &:hover {
+            background-color: #484f5b;
+            color: #e6c8c3;
+        }
+    }
+}
+
+.galary {
+    margin: 80px 0;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 40px;
+
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        margin: 20px auto 10px;
+        font-size: 22px;
+        max-width: 900px;
+    }
+
+    // .col-lg-4 {
+    //     flex: 0 0 auto;
+    //     width: 28%;
+    // }
+
+    .card {
+        margin-top: 40px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+        h4 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: rgba(72, 79, 91, 255);
+            font-size: 26px;
+            padding-top: 20px;
+        }
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: rgba(72, 79, 91, 255);
+            font-size: 16px;
+            max-width: 300px;
+            padding-bottom: 15px;
+
+        }
+    }
+
+}
+
+.yoga_training {
+    margin: 80px 0;
+    background-color: #e5ccc6;
+    padding: 100px 0;
+
+    .abs_img {
+        position: relative;
+
+        a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            color: white;
+            transform: translateY(-50%);
+        }
+
+        .shadow {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+    }
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 62px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        margin: 20px auto 10px;
+        font-size: 20px;
+        max-width: 500px;
+    }
+
+    .social_icon {
+        margin-top: 30px;
+
+        a {
+            color: white;
+            background-color: rgba(72, 79, 91, 255);
+            font-size: 18px;
+            padding: 5px 10px;
+            margin: 0 15px;
+
+
+
+        }
+    }
+}
+
+.get-touch {
+    margin: 80px 0;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: rgba(72, 79, 91, 255);
+        font-size: 40px;
+
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        color: rgba(72, 79, 91, 255);
+        margin: 20px auto 10px;
+        font-size: 20px;
+        max-width: 800px;
+    }
+
+    form {
+        padding-top: 30px;
+
+        input[type=text] {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: rgba(176, 176, 176, 255);
+            // color: #b0b0b0;
+            margin: 12px 0;
+            padding: 12px 25px;
+            background-color: rgba(128, 128, 128, 0.11);
+
+
+        }
+
+        .textarea textarea {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: rgba(176, 176, 176, 255);
+            height: 130px;
+            font-size: 18px;
+            color: #878f97;
+            margin: 12px 0;
+            padding: 12px 25px;
+            background-color: rgba(128, 128, 128, 0.11);
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border: 2px solid rgba(176, 176, 176, 255);
+        }
+
+        .form-control {
+            border: 2px solid rgba(176, 176, 176, 255);
+        }
+
+        .input-data input,
+        .textarea textarea {
+            font-size: 18px;
+
+        }
+
+        .send-btn {
+            color: #484f5b;
+            min-width: 170px;
+            background-color: #e6c8c3;
+            text-align: center;
+            align-items: center;
+            display: inline-block;
+            padding: 11px 10px;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: .3s all ease-in-out;
+
+            &:hover {
+                background-color: #484f5b;
+                color: #e6c8c3;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #484f5b;
+    padding: 50px 0;
+
+    .box_a {
+        h3 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: white;
+            font-size: 25px;
+
+        }
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: white;
+            padding: 15px 0 8px;
+            font-size: 16px;
+            max-width: 170px;
+        }
+
+        a {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: white;
+            font-size: 16px;
+        }
+    }
+
+    .box_b {
+        h5 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: white;
+            font-size: 16px;
+        }
+
+        ul {
+            li {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                color: white;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .box_c {
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: white;
+            // padding: 15px 0 8px;
+            font-size: 16px;
+            max-width: 250px;
+        }
+
+        img {
+            margin: 0 0 20px;
+        }
+
+        .social_icon {
+            a {
+                color: #484f5b;
+                background-color: white;
+                font-size: 14px;
+                padding: 2px 5px;
+                margin: 0 10px;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .homebar {
+        h3 {
+            font-size: 55px;
+        }
+    }
+
+    .join-now {
+        h3 {
+            font-size: 55px;
+        }
+    }
+
+    .woman-program {
+        .text_box {
+            h3 {
+                font-size: 55px;
+            }
+        }
+    }
+
+    .breathing {
+        h3 {
+            font-size: 55px;
+        }
+    }
+
+    .yoga_training {
+        h3 {
+            font-size: 55px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navigation-bar {
+        .navbar {
+            padding: 0;
+
+            img {
+                width: 80%;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        margin: 0;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .homebar {
+        h3 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .woman-program {
+        .text_box {
+            h3 {
+                font-size: 46px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .breathing {
+        h3 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .yoga_training {
+        h3 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .join-now {
+        padding: 100px 0;
+    }
+
+    .woman-program {
+        padding: 150px 0;
+    }
+
+    .footer {
+        .box_c {
+            img {
+                width: 45%;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .homebar {
+        text-align: center;
+
+        h3 {
+            font-size: 40px;
+        }
+
+        p {
+            max-width: none;
+            padding: 20px 0 10px;
+            font-size: 18px;
+        }
+    }
+
+    .woman-program {
+        padding: 100px 0;
+
+        .text_box {
+            h3 {
+                font-size: 34px;
+            }
+
+            p {
+                font-size: 18px;
+                padding: 20px 0 10px;
+            }
+        }
+    }
+
+    .breathing {
+        text-align: center;
+
+        h3 {
+            font-size: 40px;
+            padding-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 550px;
+            margin: 0 auto 20px;
+        }
+
+        .orders {
+            order: 2;
+        }
+
+        .orders-1 {
+            order: 1;
+        }
+    }
+
+    .join-now {
+
+        h3 {
+            font-size: 46px;
+            max-width: 300px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 300px;
+        }
+    }
+
+    .yoga_training {
+        text-align: center;
+        padding: 50px 0;
+
+        h3 {
+            font-size: 40px;
+            padding-top: 30px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .footer {
+        .box_a {
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                padding-bottom: 15px;
+            }
+        }
+
+        .box_c {
+            img {
+                width: 43%;
+            }
+        }
+    }
+
+    .galary {
+        p {
+            font-size: 20px;
+        }
+
+        .card {
+            h4 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homebar {
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            max-width: none;
+            padding: 20px 0 10px;
+            font-size: 16px;
+        }
+
+        .join-us {
+            min-width: 140px;
+            padding: 8px 10px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+
+    .woman-program {
+        text-align: start;
+        padding: 70px 0;
+        margin: 50px 0 0;
+
+        .text_box {
+            h3 {
+                font-size: 33px;
+                max-width: 270px;
+            }
+
+            p {
+                font-size: 16px;
+                padding: 20px 0 10px;
+                max-width: 290px;
+            }
+
+            .join-us {
+                min-width: 140px;
+                padding: 8px 10px;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .program-list {
+        padding: 0;
+    }
+
+    .breathing {
+        margin: 20px 0 50px;
+
+        h3 {
+            font-size: 35px;
+            padding-top: 35px;
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 500px;
+
+        }
+
+        .learn-more {
+            min-width: 140px;
+            padding: 8px 10px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+
+    .join-now {
+        text-align: center;
+
+        // padding: 20px 0;
+        h3 {
+            margin: 0 auto;
+            font-size: 35px;
+            max-width: 270px;
+        }
+
+        p {
+            margin: 0 auto 20px;
+            font-size: 16px;
+            max-width: 260px;
+        }
+
+        .join_now {
+            min-width: 140px;
+            padding: 8px 10px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+
+    .yoga_training {
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .get-touch {
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        form {
+            .send-btn {
+                min-width: 140px;
+                padding: 8px 10px;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .footer {
+        .box_c {
+            img {
+                width: 20%;
+            }
+        }
+    }
+
+    .galary {
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .homebar {
+        margin: 60px 0 20px;
+
+        h3 {
+            font-size: 21px;
+            padding-top: 20px;
+        }
+
+        p {
+            padding: 10px 0;
+        }
+
+        .join-us {
+            min-width: 120px;
+            padding: 8px 8px;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .woman-program {
+        padding: 50px 0;
+
+        .text_box {
+            h3 {
+                font-size: 21px;
+                max-width: none;
+            }
+
+            p {
+                max-width: none;
+            }
+
+            .join-us {
+                min-width: 120px;
+                padding: 8px 8px;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+
+    .breathing {
+        h3 {
+            font-size: 22px;
+        }
+
+        .learn-more {
+            min-width: 120px;
+            padding: 8px 8px;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .join-now {
+        padding: 50px 0;
+
+        h3 {
+            font-size: 21px;
+        }
+
+        .join_now {
+            min-width: 120px;
+            padding: 8px 8px;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    .get-touch {
+        margin: 50px 0;
+
+        h3 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        form {
+            padding-top: 20px;
+
+            input[type=text] {
+                font-size: 16px;
+                margin: 12px 0;
+                padding: 8px 20px;
+            }
+
+            .textarea textarea {
+                font-size: 16px;
+                height: 90px;
+                padding: 8px 20px;
+
+            }
+
+            .send-btn {
+                min-width: 130px;
+                padding: 6px 2px;
+                margin-top: 18px;
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    .yoga_training {
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    .galary {
+        margin: 40px 0 0px;
+
+        h3 {
+            font-size: 21px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
